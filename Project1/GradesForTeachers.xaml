@@ -1,0 +1,21 @@
+﻿<Window x:Class="Project1.GradesForTeachers"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Project1"
+        mc:Ignorable="d"
+        Title="GradesForTeachers" Height="450" Width="800">
+    <Grid>
+        <TextBlock TextWrapping="Wrap" Background="#355070" Margin="0,0,605,0"/>
+
+        <Button  Background="BlueViolet" Height="NaN" Margin="24,192,629,192" Width="NaN" Content="Back" Foreground="White" FontSize="27" FontFamily="Berlin Sans FB" Click="Button_ClickSubmit" />
+        <DataGrid x:Name="table"  Margin="200,0,10,136" Background="#E5E5E5"/>
+        <Button  Background="BlueViolet" Height="NaN" Margin="400,374,253,10" Width="NaN" Content="Edit" Foreground="White" FontSize="27" FontFamily="Berlin Sans FB" Click="Button_ClickEdit" />
+        <TextBlock TextWrapping="Wrap" Text="ID" FontSize="37"  Margin="205,298,545,74"/>
+        <TextBox x:Name="ID" TextWrapping="Wrap"  Margin="253,303,400,79"/>
+        <TextBlock TextWrapping="Wrap" Text="Final Exam" FontSize="37"  Margin="448,303,168,69"/>
+        <TextBox x:Name="Grade" TextWrapping="Wrap"  Margin="652,308,10,74"/>
+
+    </Grid>
+</Window>
